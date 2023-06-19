@@ -1,7 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 body{
+    height: 100vh;/*viewport height*/
     background-color: black;
     color: white;
 }
-strong{
+.titulo{
     color: #AC612A;
+}
+
+.apresentacao{
+    display:flex;
+    align-items: center;
 }
