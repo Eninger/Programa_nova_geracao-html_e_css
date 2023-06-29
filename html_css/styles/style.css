@@ -7,7 +7,7 @@
 
 
 body{
-    height: 100vh;/*viewport height*/
+    /*height: 100vh;viewport height*/
     background-color: black;
     color: white;
 }
@@ -16,7 +16,7 @@ body{
 }
 
 .apresentacao{
-    margin:0%;
+    padding: 4% 15%;
     display:flex;
     align-items: center;
     justify-content: space-evenly;
@@ -50,6 +50,10 @@ body{
 }
 
 .apresentacao__links_link{
+    display: flex;
+    justify-content: center;
+    gap:16px;
+
     color: #AC612A;
     width: 370px;
     text-align: center;
@@ -60,10 +64,45 @@ body{
     padding:21.5px 0px;
     text-decoration: none;
     border: 2px solid #AC612A;
+
+    
 }
 
 .apresentacao__links_subtitulo{
     font-family: "krona one";
     font-weight: 400;
     font-size: 24px;
+}
+
+.apresentacao__links_link:hover{
+    background-color: #272727;
+}
+
+.rodape{
+    color: black;
+    background-color: #AC612A;
+    padding: 24px;
+    text-align: center;
+    font-family:'Montserrat',sans-serifs;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.cabecalho{
+    color: #AC612A;
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+
+}
+
+.cabecalho__menu__link{
+    font-family: 'Montserrat',sans-serifs;
+    font-weight: 600;
+    text-decoration: none;
+    color: #AC612A;;
+    
 }
